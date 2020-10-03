@@ -1,0 +1,137 @@
+body   {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: #ffffff;
+    padding: 0;
+    margin: 0;
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+}
+nav{
+    overflow: hidden;
+    position: fixed;
+    margin: 0;
+    background-color: #264653;
+    width: 100%;
+    height: auto;
+    z-index: 1;
+}
+
+/* set all links to black */
+a{
+    text-decoration: none;
+    color: #e9c46a;
+}
+a:hover{
+    text-decoration: none;
+    color: #e76f51;
+}
+.topNav {
+    width: 90%;
+    display: inline-block;
+    position: relative;
+    margin: auto;
+    padding: 0.8em 0 1em 7%;
+    text-decoration: none;
+    
+}
+.topNav:hover{
+    color: black;
+}
+.topNav-right{
+    float: right;
+    word-spacing: 3em;
+}
+.landingBanner{
+    position: relative;
+    margin: 0;
+    text-align: center;
+}
+#bannerImage{
+    position: relative;
+    height: 65vh;
+    width: 100%;
+    object-fit: cover;
+    object-position: 1% 0px; 
+}
+.centeredTitle{
+    position: absolute;
+    top: 200px;
+    left: 20vw;
+    z-index: 1;
+    font-size: 50px;
+    color: #e76f51;
+}
+.centeredSubtitle{
+    position: absolute;
+    top: 300px;
+    left: 20vw;
+    z-index: 1;
+    font-size: 30px;
+    color: #e76f51;
+}
+.mainBody {
+    position: relative;
+    padding-top: 6em;
+}
+.about{
+    width: 100%;
+    display: inline-block;
+}
+.contentTitles{
+    padding: 25px;
+    font-size: 30px;
+    text-align: center;
+}
+.aboutText{
+    float: right;
+    width: 50vw;
+    padding-top: 10px;
+    padding-right: 30vw;
+}
+#headshot{
+    margin-left: 25vw;
+    height: 50vh;
+    object-fit: cover;
+    width: auto;
+    float: left;
+}
+.skillBadges{
+    width: 100%;
+    padding-left: 20vw;
+    justify-content: right;
+}
+.iconify{
+    width: 190px;
+    height: 190px;
+    padding-left: 4em;
+}
+.badgeInfo{
+    list-style-type: none;
+    overflow: hidden;
+    display: inline-block;
+}
+li {
+    float: left;
+    padding: 10px 40px 100px 80px;
+}
+.containter-projects{
+    position: relative;
+    text-align: center;
+}
+.row {
+    display: flex;
+    padding: 50px;
+    text-align: center;
+    background-color: #e9c46a;
+  }
+  
+  .column {
+    flex: 33.33%;
+    padding: 50px;
+  }
+  .column:hover{
+      transform: scale(1.1);
+  }
+
