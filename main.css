@@ -116,7 +116,7 @@ li {
     float: left;
     padding: 10px 40px 100px 80px;
 }
-.containter-projects{
+.container-projects{
     position: relative;
     text-align: center;
 }
@@ -125,13 +125,25 @@ li {
     padding: 50px;
     text-align: center;
     background-color: #e9c46a;
-  }
+}
   
-  .column {
+.column {
     flex: 33.33%;
     padding: 50px;
-  }
-  .column:hover{
+}
+.column:hover{
       transform: scale(1.1);
-  }
+}
+.container-footer{
+  position: relative;
+    height: 600px;
+    background-color: #e76f51;
+}
+#contact{
+    float: right;
+    padding-right: 50px;
+}
+.footer{
+    text-align: center;
+}
 
